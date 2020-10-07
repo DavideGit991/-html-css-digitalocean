@@ -41,7 +41,7 @@ img {
 /* regole di debug */
 [class*="col-"] {
   min-height: 60px;
-   background-color: lightgreen;
+   /* background-color: lightgreen; */
    border: solid 1px  #000;
    index: 100;
    padding: 2px;
