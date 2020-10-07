@@ -14,8 +14,8 @@
 .inline{
   display: inline-block;
 }
-.fixed{
-  width: 100%;
+#fixed{
+  /* width: 100%; */
   position: fixed;
   top: 0;
   left: 0;
@@ -29,7 +29,13 @@ img {
   height: auto;
 }
 #back-gray{
-  background-color: lightgray;
+  background-color: #f3f5f9;
+}
+#back-blue{
+  background-color: #031b4e;
+}
+#back-lightblue{
+  background-color: #015aff;
 }
 
 /* regole di debug */
