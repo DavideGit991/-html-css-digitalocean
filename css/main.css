@@ -1,0 +1,81 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.clearfix::after{
+  clear: both;
+  display: table;
+  content: "";
+}
+.inline{
+  display: inline-block;
+}
+.fixed{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 900;
+}
+section{
+  margin: 20px 0 ;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+#back-gray{
+  background-color: lightgray;
+}
+
+/* regole di debug */
+[class*="col-"] {
+  min-height: 60px;
+   background-color: lightgreen;
+   border: solid 1px  #000;
+   index: 100;
+   padding: 2px;
+}
+
+/* .row .col-6 div  */
+[class*="col-"] > .row > [class*="col-"]{
+  background-color: salmon;
+  border-color: #fff;
+}
+
+/* PROPRIETà CORPO PAGINA */
+
+/* proprietà nav */
+
+/* proprietà jumbotron */
+.back-jumbo{
+  background-color: #005cff ;
+}
+.jumbotron-box{
+  margin-top: 60px;
+}
+/* proprietà main */
+
+/* proprietà sezione 1 */
+
+/* PROPRIETà SEZIONE 2 */
+
+
+/* proprietà sezione 3 */
+
+/* proprietà footer */
+
+/* PROPRIETA RESPONSIVE */
+
+/* XS SCREEN */
+@media screen and (max-width: 768px) {
+
+}
+/* MD SCREEN */
+@media screen and (max-width: 1170px) {
+
+}
