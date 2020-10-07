@@ -37,7 +37,9 @@ img {
 #back-lightblue{
   background-color: #015aff;
 }
-
+#white-written{
+  color: #fff;
+}
 /* regole di debug */
 [class*="col-"] {
   min-height: 60px;
@@ -59,10 +61,24 @@ img {
 
 /* proprietà jumbotron */
 .back-jumbo{
-  background-color: #005cff ;
+  background-image: url(../img/home.jpg);
+  background-size: cover;
 }
 .jumbotron-box{
   margin-top: 60px;
+}
+.box-written{
+  padding-right: 20%;
+}
+.form-jumbo-box{
+  text-align: center;
+  border: solid 1px blue;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.link-start{
+  color: lightblue;
+  text-decoration: none;
 }
 /* proprietà main */
 
@@ -79,7 +95,9 @@ img {
 
 /* XS SCREEN */
 @media screen and (max-width: 768px) {
-
+  .box-written{
+    text-align: center; 
+  }
 }
 /* MD SCREEN */
 @media screen and (max-width: 1170px) {
