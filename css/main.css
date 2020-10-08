@@ -53,15 +53,15 @@ img {
 [class*="col-"] {
   /* min-height: 60px; */
    /* background-color: lightgreen; */
-   border: solid 1px  #000;
-   index: 100;
+   /* border: solid 1px  #000; */
+   /* index: 100; */
    /* padding: -1px; */
 }
 
 /* .row .col-6 div  */
 [class*="col-"] > .row > [class*="col-"]{
   /* background-color: salmon; */
-  border-color: #fff;
+  /* border-color: #fff; */
 }
 
 /* PROPRIETà CORPO PAGINA */
@@ -94,9 +94,10 @@ border-color: #031b4e;
 }
 .jumbotron-box{
   margin-top: 60px;
+
 }
 .box-written{
-  padding: 0 10%;
+  padding: 15px 10%;
 }
 .form-jumbo-box{
   padding: 0 5%;
@@ -104,6 +105,7 @@ border-color: #031b4e;
   border: solid 1px blue;
   border-radius: 15px;
   background-color: #fff;
+  margin-bottom: 10px;
 }
 .link-start{
   color: lightblue;
@@ -154,6 +156,38 @@ ul#menu_box li a {
   color: #031b4e;
   background-color: #fff;
   border-color: #031b4e;
+}
+.box-logo-footer{
+  padding: 4%;
+}
+ul#menu_box_social li {
+  /* font-family: sans-serif; */
+  display: inline-block;
+  padding: 0 4%;
+    }
+ul#menu_box_social li a {
+  /* font-size: 15px; */
+  text-decoration: none;
+}
+#menu_box_footer{
+  padding-top: 10px;
+}
+ul#menu_box_footer li {
+
+  font-family: sans-serif;
+  display: block;
+  padding: 5px 0 ;
+    }
+ul#menu_box_footer li a {
+
+  font-size: 12px;
+  text-decoration: none;
+}
+.title-box-footer{
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+
 }
 /* PROPRIETA RESPONSIVE */
 
