@@ -155,6 +155,19 @@ ul#menu_box li a {
   color: blue;
   bottom: -40px;
 }
+/* proprieta sezione 5 */
+.box-table{
+  padding: 4%;
+}
+.title-table{
+  padding: 15px 0;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+  padding: 4%;
+}
+td,th{
+  color: #fff;
+}
 /* proprietà footer */
 
 #button-account{
