@@ -25,6 +25,7 @@ ul{
   padding-inline-start: 5px;
 }
 section{
+  width: 99vw;
   margin: 0 0 ;
 }
 img {
@@ -233,7 +234,7 @@ ul#menu_box_footer li a {
 /* MD SCREEN */
 @media screen and (max-width: 991px) {
   #brand{
-    max-width: 20%;
+    max-width: 35%;
     height: auto;
   }
   .navbar-header{
