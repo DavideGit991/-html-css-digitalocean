@@ -53,6 +53,10 @@ img {
 .text-centre{
   text-align: center;
 }
+.container-fluid{
+  padding-right: 0;
+  padding-left: 0;
+}
 /* regole di debug */
 [class*="col-"] {
   /* min-height: 60px; */
@@ -219,9 +223,7 @@ ul#menu_box_footer li a {
     max-width: 35%;
     height: auto;
   }
-  .navbar-header{
-    line-height: 50px;
-  }
+
 }
 /* MD SCREEN */
 @media screen and (max-width: 991px) {
@@ -231,5 +233,9 @@ ul#menu_box_footer li a {
   }
   .navbar-header{
     width: 100%;
+  }
+  .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+     margin-right: 0;
+    margin-left: 0;
   }
 }
