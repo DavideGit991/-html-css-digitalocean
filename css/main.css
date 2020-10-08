@@ -133,11 +133,28 @@ ul#menu_box li a {
 }
 /* PROPRIETà SEZIONE 2 */
 
-
 /* proprietà sezione 3 */
-
+.box-carousel{
+  padding: 10%;
+}
+.left.carousel-control{
+  left:-10%;
+}
+.right.carousel-control{
+  right: -10%;
+}
+.carousel-indicators{
+  color: blue;
+  bottom: -40px;
+}
 /* proprietà footer */
 
+#button-account{
+  width: 20%;
+  color: #031b4e;
+  background-color: #fff;
+  border-color: #031b4e;
+}
 /* PROPRIETA RESPONSIVE */
 
 /* XS SCREEN */
