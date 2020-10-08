@@ -147,7 +147,10 @@ ul#menu_box li a {
 
 /* proprietà sezione 3 */
 .box-carousel{
-  padding: 10%;
+  padding: 35px 10%;
+}
+.carousel-control.right,.carousel-control.left {
+  background-image: none;
 }
 .left.carousel-control{
   left:-10%;
@@ -156,8 +159,14 @@ ul#menu_box li a {
   right: -10%;
 }
 .carousel-indicators{
-  color: blue;
   bottom: -40px;
+}
+.carousel-indicators .active{
+  background-color: blue;
+}
+.carousel-indicators li{
+  border: solid 1px lightblue;
+
 }
 /* proprieta sezione 5 */
 .box-table{
