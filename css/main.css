@@ -150,6 +150,10 @@ ul#menu_box li a {
 .box-carousel{
   padding: 35px 10%;
 }
+.carousel-control{
+  border-color: lightblue;
+  color: blue;
+}
 .carousel-control.right,.carousel-control.left {
   background-image: none;
 }
